@@ -164,29 +164,4 @@ function App() {
 
 export default App;
 
-// import React from "react";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import NavBar from "../src/components/NavBar";
-// import { Home } from "../src/components/Home";
-// import { About } from "../src/components/About";
-// import { Service } from "../src/components/Service";
-// import { Contact } from "../src/components/Contact";
-
-// function App() {
-//   return (
-//     <Router>
-//       <NavBar />
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/Home" element={<Home />} />
-//         <Route path="/About" element={<About />} />
-//         <Route path="/Service" element={<Service />} />
-//         <Route path="/Contact" element={<Contact />} />
-//       </Routes>
-//     </Router>
-//   );
-// }
-
-// export default App;
-
 
