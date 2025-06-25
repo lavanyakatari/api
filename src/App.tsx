@@ -102,14 +102,14 @@ function App() {
   return (
     <div>
       <div>
-      <Router>
-      <NavBar />
+    <Router>
+      <NavBar/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Service" element={<Service />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Home" element={<Home/>}/>
+        <Route  path="/Contact" element={<Contact/>}/>
+        <Route path="/Service" element={<Service/>}/>
+        <Route path="/About" element={<About/>}/>
       </Routes>
     </Router>
       </div>

@@ -74,7 +74,7 @@ const Form = () => {
                              <div className="grid grid-cols-2 gap-2 mt-6">
                                  <button className="bg-white border border-[#D0D5DD] px-4 py-2 rounded-md text-[#344054]" onClick={() => setShowForm(false)} > Cancel </button> 
                                  <button className="bg-[#0E66CE] border border-[#0E66CE] px-4 py-2 rounded-md text-white text-[18px]"> Add </button>
-                             </div> \
+                             </div> 
                              </div> 
                              </div>
                 )}
